@@ -1,5 +1,8 @@
 #-*- coding: utf-8 -*
 
+# importar módulos necesarios
+import os
+
 """
 Función que hace un merge entre dos diccionarios
 http://python.6.x6.nabble.com/Deep-merge-two-dicts-tp4859822p4861127.html
