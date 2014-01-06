@@ -85,7 +85,7 @@ class Jabot (Thread):
 	Método para enviar un mensaje a un usuario
 	"""
 	def send (self, user, data):
-		self.client.send (xmpp.Message(user, data, typ='chat'))
+		self.client.send (xmpp.Message(user, data, 'chat'))
 
 	"""
 	Método que reconectará al bot en caso de desconexión
@@ -118,7 +118,7 @@ class Jabot (Thread):
 					self.commands, command
 				) (args)
 		except :
-			response = 'Perdón, no entiendo lo que me dices :-('
+			response = 'No entiendo lo que me dices :-('
 			if self.config['debug'] >= 1 :
 				traceback.print_exc ()
 		# en caso que el comando haya devuelto algo enviarlo al usuario
