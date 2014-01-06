@@ -163,7 +163,7 @@ class DefaultCommands :
 	"""
 	def help (self) :
 		from inspect import getmembers, ismethod
-		buffer = 'Comandos disponibles: '
+		buffer = 'Palabras que entiendo: '
 		for name, data in getmembers (self, predicate=ismethod) :
 			buffer += name+' '
 		return buffer
