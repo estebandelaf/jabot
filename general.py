@@ -35,7 +35,7 @@ Función que entrega un timestamp con la fecha y hora actual
 """
 def now () :
 	import time
-	return time.strftime ('%Y-%m-%d %H:%M:%S', time.gmtime())
+	return time.strftime ('%Y-%m-%d %H:%M:%S', time.localtime())
 
 """
 Función que retorna el contenido de un archivo
