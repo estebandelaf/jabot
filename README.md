@@ -14,13 +14,12 @@ Sin embargo, y por alguna extraña razón que no quise investigar, no los pude
 hacer funcionar. Así que tomando idea de ambos (por eso los menciono en este
 README) programé Jabot.
 
-Estaré mejorando intensivamente el proyecto durante todo enero 2014, así que
-¡atentos a los cambios!
-
 Requerimientos
 --------------
 
-Módulo xmpp (en Debian GNU/Linux paquete python-xmpp)
+Módulo xmpp, en Debian GNU/Linux paquete python-xmpp:
+
+	# apt-get install python-xmpp
 
 Ejemplo
 -------
